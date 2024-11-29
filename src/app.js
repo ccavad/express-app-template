@@ -1,6 +1,7 @@
 const express = require("express");
 const config = require("./config");
 const apiRouter = require("./routers");
+const cors = require("cors");
 require("./database");
 
 const app = express();
